@@ -6,3 +6,9 @@
 - Database Integration
 - Error Handling
 - Logging
+
+
+Reference:
+
+The Django request/response cycle
+https://subscription.packtpub.com/book/web-development/9781801813051/1/ch01lvl1sec14/the-request-response-cycle

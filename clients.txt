@@ -1,0 +1,15 @@
+You can connect to the socket server using `telnet` or `curl`.
+```
+telnet 0.0.0.0 12345
+curl 0.0.0.0 12345
+curl 0.0.0.0:12345/login
+```
+
+You can also use `telnet` to send HTTP requests by sending the HTTP Request line `GET /login HTTP/1.1` to the server.
+```
+$ telnet 0.0.0.0 12345                                                                                                              
+Trying 0.0.0.0...                                                                                                                      
+Connected to 0.0.0.0.                                                                                                                  
+Escape character is '^]'.                                                                                                              
+GET /login HTTP/1.1
+```
