@@ -1,0 +1,8 @@
+- Dynamic Routing: /user/<username>
+- Middleware
+- Template Engine
+- Static File Serving
+- Session Management
+- Database Integration
+- Error Handling
+- Logging
